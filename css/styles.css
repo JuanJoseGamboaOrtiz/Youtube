@@ -127,20 +127,28 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .contenedor-comentarios{
-    background-color: #784D3C;
+    background-color: #e1e1e1;
     width: 100%;
+    height: 60rem;
 }
 
 .contenedor-videos{
-    grid-column: 1/3;
-    background-color: red;
-    width: 100%;
+    grid-column: 1/3    ;
+    grid-row: 2/3;
+    background-color: #e1e1e1;
     height: 25rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.contenedor-videos iframe{
+    height: 100%;
 }
 /*Contenedor comentarios*/
 .contenedor-comentarios{
     display: flex;
     flex-direction: column;
+
 }
 
 /*Info canal*/
@@ -161,4 +169,8 @@ input[type="search"]::-webkit-search-results-decoration {
 .comentarios{
     overflow: scroll;
     height: 100%;
+    overflow-x: hidden;
 }
+
+/*Contenedor Videos*/
+
