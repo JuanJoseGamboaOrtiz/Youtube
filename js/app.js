@@ -120,6 +120,7 @@ async function llenarVideoRelacionados(id){
         console.error(error);
     }
 
+    
     contenedorVideos.innerHTML=`
     <iframe  class=""width="560" height="315" src="https://www.youtube.com/embed/${info[0].video.videoId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <iframe  class=""width="560" height="315" src="https://www.youtube.com/embed/${info[1].video.videoId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
